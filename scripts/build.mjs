@@ -143,6 +143,7 @@ await mkdir(output, { recursive: true });
 for (const filename of staticFiles) {
   await cp(path.join(root, filename), path.join(output, filename));
 }
+await cp(path.join(root, "preview"), path.join(output, "preview"), { recursive: true });
 
 const filenames = (await readdir(articlesDirectory))
   .filter((filename) => filename.endsWith(".md") && filename.toLowerCase() !== "readme.md")
@@ -208,4 +209,4 @@ for (const article of articles) {
   );
 }
 
-console.log(`Built ${staticFiles.length} static pages and ${articles.length} blog posts into dist/.`);
+console.log(`Built ${staticFiles.length} static pages, ${articles.length} blog posts, and preview pages into dist/.`);

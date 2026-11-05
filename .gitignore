@@ -1,4 +1,11 @@
 node_modules/
 dist/
 /preview/
+!/preview/
+/preview/*
+!/preview/design-options.html
+!/preview/design-01.html
+!/preview/design-02.html
+!/preview/design-03.html
+!/preview/design-options.css
 /2026-10-31 (土).md
