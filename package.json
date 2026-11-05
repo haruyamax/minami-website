@@ -1,0 +1,15 @@
+{
+  "name": "kujoclean-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "marked": "^15.0.12",
+    "sanitize-html": "^2.17.0"
+  }
+}
