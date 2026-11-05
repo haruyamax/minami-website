@@ -275,3 +275,54 @@ h1, h2, h3, p { margin-top: 0; }
   .steps-section ol { grid-template-columns: 1fr; }
   .pattern-garden .garden-illustration { transform: scale(.9); transform-origin: center top; margin-bottom: -25px; }
 }
+
+.eyebrow { font-size: 12px; }
+.options-intro, .option-description, .back-link { font-size: 15px; }
+.option-number { font-size: 13px; }
+.option-name { font-size: 23px; }
+.option-link { font-size: 14px; }
+.preview-bar { font-size: 13px; }
+.design-brand strong { font-size: 17px; }
+.design-brand small { font-size: 11px; }
+.design-header nav a { font-size: 13px; }
+.header-button, .primary-button { font-size: 14px; }
+.hero-description { font-size: 16px; }
+.fine-print { font-size: 12px; }
+.promise-row p > b { font-size: 12px; }
+.promise-row strong { font-size: 14px; }
+.promise-row small { font-size: 12px; }
+.center-heading > p:last-child { font-size: 14px; }
+.service-tile > span { font-size: 12px; }
+.service-tile p { font-size: 14px; }
+.service-tile b { font-size: 13px; }
+.section-footnote { font-size: 12px; }
+.price-box > small { font-size: 13px; }
+.price-box > p { font-size: 14px; }
+.price-box > p span, .price-box > span { font-size: 12px; }
+.price-box > b { font-size: 13px; }
+.support-cards h3 { font-size: 17px; }
+.support-cards p { font-size: 13px; }
+.steps-section li > b { font-size: 13px; }
+.steps-section li strong { font-size: 15px; }
+.steps-section li span { font-size: 13px; }
+.prefecture-chips span { font-size: 14px; }
+.contact-band > p:not(.eyebrow), .comparison-note p, .updates-note > p { font-size: 14px; }
+.comparison-note > span { font-size: 22px; }
+.updates-note h2 { font-size: 23px; }
+.design-footer { font-size: 12px; }
+.design-footer small { font-size: 11px; }
+.pattern-pro .visual-kicker, .pattern-pro .visual-seal { font-size: 12px; }
+.pattern-pro .pro-visual > p { font-size: 14px; }
+.pattern-local .local-stamp, .pattern-local .local-aside span { font-size: 12px; }
+.pattern-local .local-aside small { font-size: 13px; }
+
+@media (max-width: 760px) {
+  .design-header nav a { font-size: 12px; }
+  .header-button { font-size: 12px; }
+}
+
+@media (max-width: 420px) {
+  .preview-bar { font-size: 11px; }
+  .design-header nav a { font-size: 12px; }
+  .hero-description { font-size: 15px; }
+}

@@ -558,3 +558,92 @@ h1, h2, h3 { font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
+
+/* Keep supporting text comfortably readable across the site. */
+.preview-notice { font-size: 12px; }
+.preview-notice strong { font-size: 11px; }
+.brand-copy strong { font-size: 17px; }
+.brand-copy small { font-size: 11px; }
+.draft-tag { font-size: 10px; }
+.main-nav a { font-size: 14px; }
+.header-cta { font-size: 13px; }
+.eyebrow { font-size: 12px; }
+.hero-lead { font-size: 16px; }
+.button { font-size: 13px; }
+.hero-footnote, .art-caption { font-size: 12px; }
+.trust-icon { font-size: 12px; }
+.trust-strip strong { font-size: 13px; }
+.trust-strip small { font-size: 12px; }
+.section-heading > p:last-child { font-size: 14px; }
+.service-art > span { font-size: 11px; }
+.service-audience { font-size: 12px; }
+.service-body > p:not(.service-audience) { font-size: 14px; }
+.text-link { font-size: 13px; }
+.section-note { font-size: 12px; }
+.pricing-copy > p:not(.eyebrow), .extras-intro > p:last-child, .area-copy > p:not(.eyebrow) { font-size: 14px; }
+.check-list li { font-size: 13px; }
+.price-label { font-size: 13px; }
+.price-amount > span:first-child { font-size: 12px; }
+.price-caption { font-size: 12px; }
+.price-extras-title { font-size: 12px; }
+.price-tags span { font-size: 11px; }
+.extra-number { font-size: 12px; }
+.extra-item p { font-size: 13px; }
+.flow-list h3 { font-size: 16px; }
+.flow-list p { font-size: 13px; }
+.map-label { font-size: 12px; }
+.quote-section h2 { font-size: 21px; }
+.quote-section p:last-child, .updates-copy > p:last-child { font-size: 13px; }
+.updates-empty p { font-size: 12px; }
+.updates-empty strong { font-size: 13px; }
+.updates-empty small { font-size: 11px; }
+.blog-card-meta { font-size: 11px; }
+.blog-card strong { font-size: 14px; }
+.blog-card > span:not(.blog-card-meta) { font-size: 12px; }
+.blog-card b, .blog-archive-link { font-size: 12px; }
+.blog-index > p:not(.eyebrow), .blog-article-excerpt { font-size: 14px; }
+.blog-article-body { font-size: 15px; }
+.blog-article-body h3 { font-size: 18px; }
+.contact-content > p:not(.eyebrow) { font-size: 14px; }
+.contact-content > small { font-size: 12px; }
+.footer-main > p { font-size: 12px; }
+.footer-bottom, .footer-bottom a { font-size: 11px; }
+.breadcrumbs { font-size: 12px; }
+.service-page-copy > p:not(.eyebrow) { font-size: 14px; }
+.service-page-points span { font-size: 11px; }
+.bedbug-page-label, .hotel-art-caption { font-size: 12px; }
+.bedbug-promise > p, .bedbug-work-grid p, .bedbug-price-intro > p:last-child,
+.bedbug-price-card p, .faq-list details p, .bedbug-related p,
+.stinkbug-work-grid p, .stinkbug-considerations p, .stinkbug-related p,
+.wildlife-work-grid p, .wildlife-cleaning-section > p, .wildlife-followup p,
+.company-hero > p:last-child, .company-note > p:not(.eyebrow) { font-size: 13px; }
+.bedbug-work-grid h3 { font-size: 17px; }
+.bedbug-safety-note { font-size: 12px; }
+.bedbug-price-card > p:first-child, .bedbug-price-card > strong small { font-size: 12px; }
+.bedbug-price-card h3 { font-size: 13px; }
+.faq-list summary { font-size: 14px; }
+.stinkbug-work-grid h3, .wildlife-work-grid h3 { font-size: 17px; }
+.wildlife-art-note { font-size: 12px; }
+.company-info > div { font-size: 13px; }
+.company-services strong { font-size: 15px; }
+.company-services span { font-size: 12px; }
+
+@media (max-width: 640px) {
+  .preview-notice { font-size: 11px; }
+  .brand-copy strong { font-size: 16px; }
+  .brand-copy small { font-size: 10px; }
+  .header-cta { font-size: 12px; }
+  .main-nav a { font-size: 12px; }
+  .hero-lead { font-size: 15px; }
+  .hero-footnote { font-size: 12px; }
+  .service-body h3 { font-size: 18px; }
+  .service-body > p:not(.service-audience) { font-size: 12px; }
+  .service-audience { font-size: 11px; }
+  .section-note, .bedbug-safety-note { font-size: 11px; }
+  .flow-list h3 { font-size: 14px; }
+  .flow-list p { font-size: 12px; }
+  .quote-section h2 { font-size: 19px; }
+  .quote-section p:last-child { font-size: 12px; }
+  .service-page-copy > p:not(.eyebrow) { font-size: 13px; }
+  .faq-list summary { font-size: 13px; }
+}
